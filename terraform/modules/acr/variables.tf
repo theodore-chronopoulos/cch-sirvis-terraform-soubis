@@ -9,12 +9,6 @@ variable "resource_group_name" {
   description = "Name of the resource group in your Azure subscription."
 }
 
-
-variable "resource_group_sku" {
-  type        = string
-  description = "Name of the resource group in your Azure subscription."
-}
-
 variable "acr_sku" {
   type        = string
   description = "SKU of the ACR."
